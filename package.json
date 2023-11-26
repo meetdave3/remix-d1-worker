@@ -1,5 +1,5 @@
 {
-  "name": "remix-cf-worker",
+  "name": "remix-d1-worker",
   "private": true,
   "sideEffects": false,
   "type": "module",
