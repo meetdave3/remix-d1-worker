@@ -1,0 +1,17 @@
+name = "remix-cloudflare-workers"
+
+workers_dev = true
+main = "./build/index.js"
+# https://developers.cloudflare.com/workers/platform/compatibility-dates
+compatibility_date = "2023-04-20"
+
+[site]
+  bucket = "./public"
+
+[build]
+  command = "npm run build"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "test"
+database_id = "85e7d252-8246-47d1-b933-6860f3fc175b"
